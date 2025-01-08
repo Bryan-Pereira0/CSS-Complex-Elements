@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styling UI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <section id="registration">
+    <h2>Sign Up!</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Create a password" required>
+      </div>
+      <button type="submit">Sign Up</button>
+    </form>
+  </section>
+
+
+  <section id="navigation">
+    <h2>Explore</h2>
+    <ul class="nav-menu">
+      <li><a href="home">Home</a></li>
+      <li><a href="about">About</a></li>
+      <li><a href="services">Services</a></li>
+      <li><a href="contact">Contact</a></li>
+    </ul>
+  </section>
+
+  <section id="table">
+    <h2>Movie Schedule</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Movie</th>
+          <th>Time</th>
+          <th>Genre</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>007</td>
+          <td>6:00 PM</td>
+          <td>Action Thriller</td>
+        </tr>
+        <tr>
+          <td>Minions</td>
+          <td>8:30 PM</td>
+          <td>Animation</td>
+        </tr>
+        <tr>
+          <td>Interstellar</td>
+          <td>10:00 PM</td>
+          <td>Sci-Fi</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</body>
+</html>
